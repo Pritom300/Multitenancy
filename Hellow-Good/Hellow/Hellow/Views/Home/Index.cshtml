@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "GetContacts";
+}
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+    </tr>
+
+    @foreach (var r in ViewBag.o)
+    {
+
+        <td>@r.Id</td>
+        <td>@r.Name</td>
+
+    }
+</table>
